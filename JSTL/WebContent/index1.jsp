@@ -1,3 +1,4 @@
+ESTUDIANTE: KELVIN PAUL PUCHO ZEVALLOS
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 	
@@ -22,7 +23,7 @@
 	
 	<%--out.print("Hola mundo desde JSP");--%>
 	<c:out value="Hola mundo desde JSP"></c:out> <br>
-	<c:out value="Esto es una expresión."/>
+	<c:out value="Esto es una expresiÃ³n."/>
 	<br>
 	
 	<%--Se declara una directiva para utilizar la clase Date <%@ page import="java.util.Date"  %>
@@ -31,9 +32,9 @@
 	<c:out value="Fecha actual: "/>
 	<c:out value="${date.content}"/>
 	<br>
-	<%--Navegador y Versión del Sistema Operativo --%>
+	<%--Navegador y VersiÃ³n del Sistema Operativo --%>
 	
-	<c:out value="Navegador y Versión del Sistema Operativo: "/>
+	<c:out value="Navegador y VersiÃ³n del Sistema Operativo: "/>
 	<c:out value="${so}"/>
 	<c:out value="hola mundo JSTL desde jsp"></c:out>
 		
